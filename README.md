@@ -85,7 +85,7 @@ This repository is intended for:
 This project does not claim experimental validation or novel biological discovery.  
 Its purpose is methodological transparency, workflow reproducibility, and support for scientific interpretation through computational analysis.
 
-
+---
 
 ## Methodology and Quality Assessment
 
@@ -93,8 +93,22 @@ Detailed methodological criteria for structure evaluation are available in:
 
 - [Structure Evaluation and Model Quality Assessment](docs/methodology.md)
 
-  
 ---
+
+## Open-Science Context and Data Provenance
+
+This workflow framework is informed by contemporary open-science practices in structural biology, where distributed computation, shared datasets, and accessible analytical environments enable broad research participation.
+
+Conceptual inspiration includes large-scale distributed protein-folding initiatives such as Folding@home, which demonstrated how collaborative computational infrastructure can accelerate structural understanding during global research efforts.
+
+When appropriate, workflows may be applied to openly available structural datasets, including ligand-bound protein structures released through collaborative initiatives such as the COVID Moonshot project and distributed via platforms like Fragalysis.
+
+The repository also considers scenarios in which researchers generate experimental sequences locally and require computational curation, structural prediction, and reproducible analytical documentation.
+
+Rather than focusing on computational scale, the project emphasizes methodological transparency, data provenance awareness, and reproducible interpretation using accessible computational environments.
+
+---
+
 ## Workflow Demonstrations
 
 Example applications of the workflow methodology:
@@ -104,8 +118,6 @@ Example applications of the workflow methodology:
 These examples illustrate how structured computational workflows can support reproducible structural biology analyses using accessible computational environments.
 
 ---
-
-
 
 ## Repository Structure
 
