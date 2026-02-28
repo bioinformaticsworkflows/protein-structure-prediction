@@ -1,83 +1,84 @@
 # Workflow Overview
 
-This document describes the practical workflow used for protein structure prediction and structural interpretation using accessible computational environments.
+This repository documents a reproducible bioinformatics workflow designed for protein structure analysis and interpretation using accessible computational environments.
 
-The workflow prioritizes reproducibility, methodological transparency, and scientific interpretability rather than large-scale computational production.
-
----
-
-## 1. Sequence Acquisition
-
-Protein sequences may originate from:
-
-- Public biological databases (UniProt, NCBI)
-- Literature-derived sequences
-- Experimentally generated sequences obtained in laboratory environments
-
-When sequences are experimentally generated, initial curation includes verification of formatting, residue integrity, and biological plausibility prior to structural prediction.
+The workflow is intended for researchers who may not have access to dedicated high-performance computing infrastructure but still require reliable structural bioinformatics analysis.
 
 ---
 
-## 2. Sequence Preparation
+## Conceptual Scope
 
-Preparation steps include:
+The workflow connects four complementary contexts commonly found in contemporary open science:
 
-- FASTA formatting validation
-- Removal of ambiguous residues when necessary
-- Domain awareness and length evaluation
-- Initial biological plausibility checks
-
-These steps reduce downstream prediction artifacts.
+- Participation in distributed computational research initiatives
+- Analysis of publicly released structural biology datasets
+- Support for experimentally derived laboratory sequences
+- Reproducible analysis using cloud-based and lightweight tools
 
 ---
 
-## 3. Structure Prediction
+## Scientific Context
 
-Structure prediction is performed using accessible platforms:
+### Distributed Open Science Participation
 
-- AlphaFold-based environments
-- ColabFold implementations
+Prior participation in distributed protein-folding initiatives (e.g., Folding@home) informed familiarity with collaborative computational research environments and large-scale structural biology efforts.
 
-Parameters are selected to balance computational accessibility and structural reliability.
-
----
-
-## 4. Model Quality Evaluation
-
-Predicted structures are evaluated using:
-
-- pLDDT confidence scores
-- Predicted Aligned Error (PAE)
-- Domain-level confidence interpretation
-
-Low-confidence regions are interpreted cautiously and documented explicitly.
+This experience contributes conceptual understanding of protein dynamics and open scientific coordination rather than serving as experimental validation.
 
 ---
 
-## 5. Structural Interpretation
+### Public Structural Datasets (Fragalysis / COVID Moonshot)
 
-Analysis includes:
+Publicly available crystallographic datasets, such as SARS-CoV-2 Mpro structures released through the Diamond Light Source Fragalysis platform, are used as reference examples for reproducible structural analysis workflows.
 
-- Identification of structured vs flexible regions
-- Fold plausibility assessment
-- Preparation for downstream computational studies (e.g., docking)
+These datasets enable demonstration of:
 
-The workflow emphasizes interpretation rather than automated conclusions.
-
----
-
-## 6. Documentation & Reproducibility
-
-Each analysis step is documented to ensure:
-
-- Transparency of analytical decisions
-- Reproducibility across environments
-- Clear communication for collaborators and researchers
-
-Logs and methodological notes are maintained in the repository analysis records.
+- ligand–protein interaction inspection
+- structural interpretation
+- reproducible analytical documentation
 
 ---
 
-## Workflow Philosophy
+### Laboratory-Derived Sequences
 
-This workflow demonstrates how meaningful structural biology analyses can be conducted using publicly available computational tools, supporting researchers operating without specialized infrastructure while maintaining scientific rigor.
+The workflow is also applicable to sequences generated experimentally in laboratory environments.
+
+Typical use cases include:
+
+- newly sequenced proteins requiring structural prediction
+- mutation impact exploration
+- preparation of structures for downstream docking studies
+
+Sequence curation and validation steps are emphasized prior to structural modeling.
+
+---
+
+## Computational Philosophy
+
+The central objective is to demonstrate that meaningful structural bioinformatics analysis can be conducted using:
+
+- accessible cloud-based computational environments supporting protein structure prediction workflows
+- publicly accessible databases
+- lightweight local visualization tools
+
+without reliance on specialized institutional infrastructure.
+
+---
+
+## General Workflow Logic
+
+1. Sequence acquisition (public database or experimental source)
+2. Sequence curation and validation
+3. Structure prediction or retrieval
+4. Model confidence evaluation (pLDDT / PAE)
+5. Structural visualization and interpretation
+6. Preparation for downstream analysis
+
+---
+
+## Reproducibility Principles
+
+- Transparent methodological documentation
+- Accessible computational environments
+- Clear analytical boundaries
+- Research-oriented reporting practices
