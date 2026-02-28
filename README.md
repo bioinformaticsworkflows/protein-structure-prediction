@@ -69,15 +69,6 @@ Exposure to distributed computational research environments was developed throug
 
 ---
 
-## Repository Structure
-
-- **project_scope.md** — methodological boundaries and objectives
-- **workflow_overview.md** — step-by-step analytical logic
-- **analysis_log.md** — ongoing workflow documentation
-- **examples/** — demonstration datasets and outputs
-
----
-
 ## Intended Use
 
 This repository is intended for:
@@ -93,6 +84,24 @@ This repository is intended for:
 
 This project does not claim experimental validation or novel biological discovery.  
 Its purpose is methodological transparency, workflow reproducibility, and support for scientific interpretation through computational analysis.
+
+
+
+## Methodology and Quality Assessment
+
+Detailed methodological criteria for structure evaluation are available in:
+
+- [Structure Evaluation and Model Quality Assessment](docs/methodology.md)
+  
+---
+
+
+## Repository Structure
+
+- **project_scope.md** — methodological boundaries and objectives
+- **workflow_overview.md** — step-by-step analytical logic
+- **analysis_log.md** — ongoing workflow documentation
+- **examples/** — demonstration datasets and outputs
 
 ---
 
