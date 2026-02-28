@@ -92,8 +92,19 @@ Its purpose is methodological transparency, workflow reproducibility, and suppor
 Detailed methodological criteria for structure evaluation are available in:
 
 - [Structure Evaluation and Model Quality Assessment](docs/methodology.md)
+
   
 ---
+## Workflow Demonstrations
+
+Example applications of the workflow methodology:
+
+- [Example Case 01 — Protein Structure Prediction Workflow Demonstration](examples/example_case_01.md)
+
+These examples illustrate how structured computational workflows can support reproducible structural biology analyses using accessible computational environments.
+
+---
+
 
 
 ## Repository Structure
