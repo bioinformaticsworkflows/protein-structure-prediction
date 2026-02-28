@@ -1,101 +1,104 @@
-# Protein Structure Prediction — Reproducible Bioinformatics Workflow
+# Protein Structure Prediction & Bioinformatics Workflows
 
-Reproducible bioinformatics workflows for protein structure analysis and scientific data interpretation using accessible computational environments.
+Reproducible bioinformatics workflows for protein structure analysis, sequence interpretation, and scientific data organization using accessible computational environments.
+
+This repository documents practical computational approaches designed for researchers working without specialized high-performance computing infrastructure, enabling transparent and reproducible structural biology analyses.
 
 ---
 
-## Overview
+## Project Overview
 
-This repository provides structured workflows for protein structure prediction and analysis designed for researchers working without specialized high-performance computing infrastructure.
+The goal of this project is to provide structured workflows for:
 
-The project emphasizes reproducibility, methodological transparency, and practical usability through publicly available computational tools and cloud-based environments.
+- Protein structure prediction using accessible platforms (AlphaFold / ColabFold environments)
+- Structural model evaluation and interpretation (pLDDT, PAE analysis)
+- Preparation of protein structures for downstream computational studies
+- Scientific data organization and reproducible analysis practices
+- Clear documentation supporting research interpretation and reporting
 
-The workflows support early-stage hypothesis exploration, structural interpretation, and preparation of biological data for downstream computational analysis.
+The workflows emphasize methodological clarity, reproducibility, and practical usability in real research contexts.
 
 ---
 
 ## Scope
 
-The workflow includes:
+This repository focuses on workflow design rather than large-scale computational production.  
+It demonstrates how meaningful structural biology analyses can be performed using publicly available tools and carefully structured analytical steps.
 
-- Protein sequence preparation and basic quality assessment
-- Structure prediction using AlphaFold / ColabFold environments
-- Model quality interpretation (pLDDT and PAE metrics)
-- Structural organization for downstream analysis
-- Preparation of models for docking and visualization
-- Scientific data organization and reporting
+Applications include:
 
-The objective is not to replace laboratory validation but to support structurally informed research decisions and exploratory computational analysis.
+- Exploratory structural analysis
+- Academic research support
+- Early-stage hypothesis evaluation
+- Educational and reproducible research environments
 
 ---
 
 ## Computational Philosophy
 
-This project is intentionally designed for:
+Modern computational biology increasingly relies on accessible tools and distributed scientific infrastructure.  
+This project adopts a reproducible-first approach:
 
-- Researchers without dedicated GPU infrastructure
-- Small laboratories and independent researchers
-- Educational and exploratory research environments
-- Rapid structural prototyping before experimental validation
+- Transparent analytical steps
+- Minimal infrastructure requirements
+- Environment accessibility
+- Clear scientific interpretation over raw computation scale
 
-All procedures rely on accessible computational environments and reproducible steps rather than proprietary or resource-intensive systems.
-
----
-
-## Sequence Curation Support
-
-The workflow also accommodates sequences generated directly in laboratory environments.
-
-When researchers obtain novel biological sequences experimentally, preliminary bioinformatics curation may include:
-
-- sequence formatting and validation
-- removal of artifacts or incomplete regions
-- verification of reading frames and biological plausibility
-- preparation for structure prediction pipelines
-
-This ensures experimentally derived data can be integrated into computational structural analysis in a reproducible manner.
+The objective is to bridge computational analysis and scientific understanding rather than provide black-box predictions.
 
 ---
 
-## Data Sources and Context
+## Data Sources & Environments
 
-Workflows demonstrated here are compatible with publicly available structural biology initiatives and open scientific resources, including datasets emerging from collaborative drug-discovery and protein-structure research environments.
+Workflows may integrate:
 
-The repository reflects methodological practices aligned with contemporary open-science computational collaboration while remaining independent from any specific consortium validation.
+- Public biological sequence databases
+- Experimentally derived sequences curated by researchers
+- Open structural datasets
+- Accessible cloud-based computational environments
+
+The repository also considers scenarios where researchers generate their own sequences experimentally and require computational curation, structural interpretation, and organized analytical documentation.
+
+---
+
+## Background
+
+Background includes pharmaceutical laboratory training combined with formal education in communication and scientific reporting, supporting clear technical documentation and research-oriented writing.
+
+Exposure to distributed computational research environments was developed through participation in large-scale open-science protein-folding initiatives (Folding@home), contributing to practical understanding of collaborative structural biology and distributed scientific workflows.
+
+---
+
+## Repository Structure
+
+- **project_scope.md** — methodological boundaries and objectives
+- **workflow_overview.md** — step-by-step analytical logic
+- **analysis_log.md** — ongoing workflow documentation
+- **examples/** — demonstration datasets and outputs
 
 ---
 
 ## Intended Use
 
-This repository is suitable for:
+This repository is intended for:
 
-- academic exploratory research
-- early structural hypothesis testing
-- methodological demonstrations
-- reproducible bioinformatics learning workflows
-- scientific consulting support environments
+- Researchers needing computational support without dedicated HPC resources
+- Small laboratories exploring structural hypotheses
+- Collaborative scientific environments
+- Educational and reproducible research demonstrations
 
 ---
 
-## Limitations
+## Scientific Positioning
 
-Predicted structures are computational models and must not be interpreted as experimentally validated results.
-
-Biological conclusions should always be supported by appropriate experimental methods.
+This project does not claim experimental validation or novel biological discovery.  
+Its purpose is methodological transparency, workflow reproducibility, and support for scientific interpretation through computational analysis.
 
 ---
 
 ## Author
 
-Fernandes, E.M.L.  
+FERNANDES, E.M.L.  
 ORCID: https://orcid.org/0009-0009-3670-9410
 
-Independent bioinformatics and scientific data analysis practitioner focused on protein structure prediction, computational biology workflows, and reproducible research support.
-
-Background includes pharmaceutical laboratory training and participation in distributed open-science protein-folding initiatives.
-
----
-
-## License
-
-MIT License
+Independent bioinformatics and scientific data analysis consultant focused on protein structure interpretation and reproducible computational workflows.
