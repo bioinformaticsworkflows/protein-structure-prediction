@@ -42,6 +42,70 @@ Analyses are designed to be executable using accessible computational environmen
 
 ---
 
+## Structural Context
+
+The SARS-CoV-2 main protease (Mpro) is a cysteine protease responsible for viral polyprotein processing and represents a validated antiviral drug target.
+
+The active site is located in a cleft between domains I and II and contains the catalytic dyad:
+
+- His41  
+- Cys145  
+
+---
+
+## Binding Site Characterization
+
+Analysis of ligand-bound structures from the COVID Moonshot dataset indicates that the inhibitor MAT-POS-e194df51-1 occupies the canonical substrate-binding pocket.
+
+### Binding pocket organization:
+
+- **S1 subsite:** interactions near His163 and Glu166 support ligand positioning
+- **S2 subsite:** hydrophobic interactions involving Met49 and Met165
+- **Extended pocket (S3–S5):** flexible region including Gln189 and surrounding loops
+
+---
+
+## Cryptic Pocket Behavior
+
+Structural datasets reveal localized conformational flexibility in the loop region spanning residues ~186–192.
+
+Ligand binding induces rearrangements in this region, particularly near:
+
+- Gln189  
+
+This results in expansion of the binding cavity and exposure of transient subpocket volumes that are not fully apparent in apo structures.
+
+Such behavior is consistent with ligand-induced pocket plasticity observed across multiple Mpro complexes :contentReference[oaicite:0]{index=0}.
+
+---
+
+## Model Quality and Structural Interpretation
+
+Because this example uses experimentally determined structures:
+
+- atomic coordinates are derived from crystallographic data
+- confidence is determined by experimental resolution rather than predictive metrics
+
+However, interpretative criteria remain consistent with predictive workflows:
+
+- structural stability assessed at domain level
+- flexible regions treated cautiously
+- binding interactions interpreted within structural context
+
+---
+
+## Data Access
+
+Interactive visualization and dataset access:
+
+https://fragalysis.diamond.ac.uk/viewer/react/preview/target/CoV-Mpro/tas/lb32627-272
+
+Users may download protein and ligand structures directly from the platform to reproduce analysis steps.
+
+
+
+---
+
 ## Scientific Interpretation Scope
 
 This example does not attempt drug discovery claims or experimental validation.
