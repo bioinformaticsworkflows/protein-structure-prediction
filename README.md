@@ -1,8 +1,17 @@
 # Protein Structure Prediction & Bioinformatics Workflows
 
-Reproducible bioinformatics workflows for protein structure analysis, sequence interpretation, and scientific data organization using accessible computational environments.
+## Overview
 
-This repository documents practical computational approaches designed for researchers working without specialized high-performance computing infrastructure, enabling transparent and reproducible structural biology analyses.
+This repository provides reproducible bioinformatics workflows for protein structure prediction, structural interpretation, and research-oriented data analysis.
+
+It is designed for researchers who:
+
+- need structural insights without specialized high-performance computing infrastructure  
+- work with experimental or public protein sequence data  
+- require transparent and reproducible analytical workflows  
+
+The project integrates open-science datasets (e.g., COVID Moonshot / Fragalysis), computational reasoning, and structured reporting practices to support scientific interpretation.
+
 
 ---
 
@@ -116,6 +125,8 @@ Example applications of the workflow methodology:
 - [Example Case 01 — Protein Structure Prediction Workflow Demonstration](examples/example_case_01.md)
 
 These examples illustrate how structured computational workflows can support reproducible structural biology analyses using accessible computational environments.
+
+- [Example Case — SARS-CoV-2 Mpro Open-Science Dataset](examples/example_case_Mpro.md)
 
 ---
 
