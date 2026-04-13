@@ -63,6 +63,10 @@ Analysis of ligand-bound structures from the COVID Moonshot dataset indicates th
 - **S2 subsite:** hydrophobic interactions involving Met49 and Met165
 - **Extended pocket (S3–S5):** flexible region including Gln189 and surrounding loops
 
+
+> **Structural reasoning note:**  
+> Binding site identification prioritizes conserved catalytic features and ligand-supported conformations rather than relying solely on static structural snapshots.
+
 ---
 
 ## Cryptic Pocket Behavior
@@ -76,6 +80,9 @@ Ligand binding induces rearrangements in this region, particularly near:
 This results in expansion of the binding cavity and exposure of transient subpocket volumes that are not fully apparent in apo structures.
 
 Such behavior is consistent with ligand-induced pocket plasticity observed across multiple Mpro complexes :contentReference[oaicite:0]{index=0}.
+
+> **Interpretative note:**  
+> Observed pocket expansion is interpreted as ligand-induced conformational adaptability rather than evidence of a distinct secondary binding site.
 
 ---
 
@@ -91,6 +98,9 @@ However, interpretative criteria remain consistent with predictive workflows:
 - structural stability assessed at domain level
 - flexible regions treated cautiously
 - binding interactions interpreted within structural context
+
+> **Analytical note:**  
+> Structural interpretation integrates experimental data with workflow-based reasoning to avoid over-reliance on either purely computational or purely visual inspection.
 
 ---
 
