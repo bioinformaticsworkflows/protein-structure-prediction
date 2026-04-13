@@ -79,7 +79,7 @@ Ligand binding induces rearrangements in this region, particularly near:
 
 This results in expansion of the binding cavity and exposure of transient subpocket volumes that are not fully apparent in apo structures.
 
-Such behavior is consistent with ligand-induced pocket plasticity observed across multiple Mpro complexes :contentReference[oaicite:0]{index=0}.
+Such behavior is consistent with ligand-induced pocket plasticity observed across multiple Mpro complexes. 
 
 > **Interpretative note:**  
 > Observed pocket expansion is interpreted as ligand-induced conformational adaptability rather than evidence of a distinct secondary binding site.
