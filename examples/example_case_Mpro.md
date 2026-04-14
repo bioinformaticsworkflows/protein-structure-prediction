@@ -88,19 +88,24 @@ Such behavior is consistent with ligand-induced pocket plasticity observed acros
 
 ## Model Quality and Structural Interpretation
 
-Because this example uses experimentally determined structures:
+The analyzed structure corresponds to PDB entry 7GAW, a high-resolution crystallographic model of SARS-CoV-2 main protease in complex with a non-covalent inhibitor.
 
-- atomic coordinates are derived from crystallographic data
-- confidence is determined by experimental resolution rather than predictive metrics
+The structure presents high crystallographic quality (1.81 Å resolution, no Ramachandran outliers, low clashscore), supporting reliable structural interpretation.
 
-However, interpretative criteria remain consistent with predictive workflows:
+Because experimentally determined coordinates are used:
 
-- structural stability assessed at domain level
-- flexible regions treated cautiously
-- binding interactions interpreted within structural context
+- atomic positions are derived from X-ray diffraction data  
+- structural confidence exceeds predictive models  
+- analysis focuses on interpretation rather than validation  
+
+Interpretative criteria remain consistent with predictive workflows:
+
+- structural stability assessed at domain level  
+- flexible regions treated cautiously  
+- binding interactions interpreted within structural context  
 
 > **Analytical note:**  
-> Structural interpretation integrates experimental data with workflow-based reasoning to avoid over-reliance on either purely computational or purely visual inspection.
+> Structural interpretation integrates experimental validation with workflow-based reasoning, avoiding over-reliance on either purely computational predictions or purely visual inspection.
 
 ---
 
