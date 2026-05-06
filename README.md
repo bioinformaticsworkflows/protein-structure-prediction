@@ -144,4 +144,4 @@ These examples illustrate how structured computational workflows can support rep
 FERNANDES, E.M.L.  
 ORCID: https://orcid.org/0009-0009-3670-9410
 
-Independent bioinformatics and scientific data analysis consultant focused on protein structure interpretation and reproducible computational workflows.
+Background in bioinformatics and scientific data analysis, with focus on protein structure interpretation and reproducible computational workflows, developed through independent study and hands-on projects.
